@@ -1,0 +1,60 @@
+.box{
+    position: relative;
+  top: 100%;
+  left: 33%;
+  width: 9%;
+  height: 9%;
+  padding: 9%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.box.fade{
+    position: relative;
+  top: 100%;
+  left: 33%;
+  width: 9%;
+  height: 9%;
+  padding: 9%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+input[type="email"] {
+    position: relative;
+    top: -65px;
+    right: 84%;
+    width: 243%;
+    padding: 8%;
+    border-radius: 5px;
+    border: 1px solid rgb(100, 100, 100);
+    outline: none;
+  }
+
+  input[type="password"] {
+    position: relative;
+    top: -55px;
+    right: 84%;
+    width: 243%;
+    padding: 8%;
+    border-radius: 5px;
+    border: 1px solid rgb(100, 100, 100);
+    outline: none;
+}
+
+  button{
+    position: relative;
+    top: -45px;
+    right: 84%;
+    width: 261%;
+    padding: 8%;
+    border-radius: 5px;
+    background-color: #484D50;
+    border: none;
+    color: white;
+  }
+
+  button:hover{
+    background-color: #3a3d3f;
+    border: none;
+}
