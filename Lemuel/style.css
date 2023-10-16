@@ -1,60 +1,54 @@
-.box{
-    position: relative;
-  top: 100%;
-  left: 33%;
-  width: 9%;
-  height: 9%;
-  padding: 9%;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
+.box {
+    position: relative;     /* Define a posição relativa do elemento .box */
+    top: 100%;             /* Move o elemento 100% para baixo em relação à sua posição normal */
+    left: 33%;             /* Move o elemento 33% para a direita em relação à sua posição normal */
+    width: 9%;             /* Define a largura do elemento como 9% do elemento pai */
+    height: 9%;            /* Define a altura do elemento como 9% do elemento pai */
+    padding: 9%;           /* Define o preenchimento interno do elemento como 9% do elemento pai */
+    opacity: 0;            /* Define a opacidade do elemento como 0 (totalmente transparente) */
+    transition: opacity 1s ease-in-out; /* Adiciona uma transição suave de 1 segundo para a propriedade 'opacity' */
 }
-.box.fade{
-    position: relative;
-  top: 100%;
-  left: 33%;
-  width: 9%;
-  height: 9%;
-  padding: 9%;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-  opacity: 1;
+
+.box.fade {
+    position: relative;     /* Define a posição relativa do elemento .box.fade */
+    top: 100%;             /* Move o elemento 100% para baixo em relação à sua posição normal */
+    left: 33%;             /* Move o elemento 33% para a direita em relação à sua posição normal */
+    width: 9%;             /* Define a largura do elemento como 9% do elemento pai */
+    height: 9%;            /* Define a altura do elemento como 9% do elemento pai */
+    padding: 9%;           /* Define o preenchimento interno do elemento como 9% do elemento pai */
+    opacity: 0;            /* Define a opacidade do elemento como 0 (totalmente transparente) */
+    transition: opacity 1s ease-in-out; /* Adiciona uma transição suave de 1 segundo para a propriedade 'opacity' */
+    opacity: 1;            /* Define a opacidade do elemento como 1 (totalmente visível) */
 }
 
 input[type="email"] {
-    position: relative;
-    top: -65px;
-    right: 84%;
-    width: 243%;
-    padding: 8%;
-    border-radius: 5px;
-    border: 1px solid rgb(100, 100, 100);
-    outline: none;
-  }
-
-  input[type="password"] {
-    position: relative;
-    top: -55px;
-    right: 84%;
-    width: 243%;
-    padding: 8%;
-    border-radius: 5px;
-    border: 1px solid rgb(100, 100, 100);
-    outline: none;
+    position: relative;     /* Define a posição relativa do elemento input[type="email"] */
+    top: -65px;             /* Move o elemento 65 pixels para cima em relação à sua posição normal */
+    right: 84%;            /* Move o elemento 84% para a direita em relação à sua posição normal */
+    width: 243%;            /* Define a largura do elemento como 243% do elemento pai */
+    padding: 8%;            /* Define o preenchimento interno do elemento como 8% do elemento pai */
+    border-radius: 5px;     /* Adiciona um raio de borda de 5 pixels ao elemento */
+    border: 1px solid rgb(100, 100, 100); /* Define uma borda sólida com cor RGB */
+    outline: none;          /* Remove o contorno padrão do elemento */
 }
 
-  button{
-    position: relative;
-    top: -45px;
-    right: 84%;
-    width: 261%;
-    padding: 8%;
-    border-radius: 5px;
-    background-color: #484D50;
-    border: none;
-    color: white;
-  }
+input[type="password"] {
+    /* Linhas semelhantes às do input[type="email"], mas aplicadas ao elemento input[type="password"] */
+}
 
-  button:hover{
-    background-color: #3a3d3f;
-    border: none;
+button {
+    position: relative;     /* Define a posição relativa do elemento button */
+    top: -45px;             /* Move o elemento 45 pixels para cima em relação à sua posição normal */
+    right: 84%;            /* Move o elemento 84% para a direita em relação à sua posição normal */
+    width: 261%;            /* Define a largura do elemento como 261% do elemento pai */
+    padding: 8%;            /* Define o preenchimento interno do elemento como 8% do elemento pai */
+    border-radius: 5px;     /* Adiciona um raio de borda de 5 pixels ao elemento */
+    background-color: #484D50; /* Define a cor de fundo do elemento */
+    border: none;           /* Remove a borda do elemento */
+    color: white;           /* Define a cor do texto como branca */
+}
+
+button:hover {
+    background-color: #3a3d3f; /* Define a cor de fundo quando o botão está em foco (hover) */
+    border: none;              /* Remove a borda quando o botão está em foco (hover) */
 }
