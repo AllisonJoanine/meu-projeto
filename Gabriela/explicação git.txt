@@ -1,0 +1,55 @@
+Repositório: Um repositório Git é um local onde seus arquivos de código fonte são armazenados juntamente com as informações de controle de versão. Existem repositórios locais (no seu computador) e repositórios remotos (como no GitHub, GitLab ou Bitbucket).
+
+Commit: Um commit é uma ação que registra uma mudança ou conjunto de mudanças em seu repositório Git. É como tirar uma fotografia do estado do seu projeto em um determinado momento. Cada commit tem um identificador único (hash) e é acompanhado por uma mensagem que descreve o que foi feito.
+
+Branch: Um branch é uma linha de desenvolvimento separada no Git. É como uma ramificação do seu projeto principal (geralmente chamado de "master" ou "main") que permite que você trabalhe em novos recursos ou correções de bugs sem afetar o código no branch principal. Você pode criar, mesclar e excluir branches.
+
+Checkout: O comando "checkout" no Git é usado para alternar entre diferentes branches e commits. Por exemplo, você pode usar git checkout nomedobranch para mudar para um branch específico.
+
+Merge: Mesclar é o processo de incorporar as alterações de um branch em outro. Isso é feito para unir o trabalho de diferentes branches, geralmente após a conclusão de um recurso ou correção de bug.
+
+Pull: "Pull" é um comando que puxa as alterações do repositório remoto para o repositório local. Isso é frequentemente usado quando você deseja atualizar seu repositório local com as mudanças que foram feitas por outros colaboradores no repositório remoto.
+
+Push: "Push" é um comando que envia suas alterações locais para o repositório remoto. Isso é usado para compartilhar seu trabalho com outros colaboradores ou fazer backup das alterações no repositório remoto.
+
+Clone: Clonar é o ato de criar uma cópia completa de um repositório remoto em sua máquina local. Isso é feito usando o comando git clone.
+
+Fork: Em plataformas como o GitHub, você pode fazer um "fork" de um repositório para criar uma cópia independente. Isso é útil quando você deseja contribuir para um projeto, mas não tem permissões de gravação no repositório original.
+
+Pull Request: Um pull request é uma solicitação para que as alterações feitas em um branch em seu repositório (ou fork) sejam mescladas no repositório principal (geralmente o repositório original do projeto). É uma maneira de sugerir alterações a outros colaboradores e iniciar uma discussão sobre as mudanças propostas.
+
+
+
+
+Códigos para exportar a pasta para o GitHub:
+
+git status
+
+git add nome_da_pasta/
+
+git commit -m "Adicionando a pasta nome_da_pasta"
+
+git push origin nome_da_branch
+
+
+
+Códigos para importar a pasta do GitHub para o VScode:
+
+cd /c/caminho/para/seu/diretorio
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+
+
+Códigos para puxar as alterações feitas no repositório:
+
+git pull  //Puxa as alterações completas do commit ou ultima alteração feita
+
+git pull origin nomedobranch  //Precisa substituir o orgin pelo nome do repotório e o nomebranch pelo nome da branch especifica que deseja puxar
+
+
+
+
+
+
+
