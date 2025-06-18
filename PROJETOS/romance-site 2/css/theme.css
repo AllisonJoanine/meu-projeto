@@ -1,0 +1,44 @@
+
+/* css/theme.css */
+
+/* Tema claro (dia) - Mantido para compatibilidade, mas o foco é neon */
+body.light-theme {
+    background: linear-gradient(to bottom right, #6B00FF, #00C8FF);
+    --background-color: linear-gradient(to bottom right, #6B00FF, #00C8FF);
+    --text-color: #ffffff;
+    --button-bg: linear-gradient(to right, #6B00FF, #00C8FF);
+    --button-text: #ffffff;
+    --button-hover-bg: linear-gradient(to right, #00C8FF, #6B00FF);
+    --button-hover-text: #ffffff;
+}
+
+/* Tema escuro (noite) - Padrão para o novo visual */
+body.dark-theme {
+    background: linear-gradient(to bottom right, #300048, #5A007A); /* Mantendo um roxo profundo para o dark mode */
+    --background-color: linear-gradient(to bottom right, #300048, #5A007A);
+    --text-color: #eee;
+    --button-bg: #5A007A;
+    --button-text: #fff;
+    --button-hover-bg: #300048;
+    --button-hover-text: #eee;
+}
+
+/* Transição suave */
+body {
+    transition: background 0.5s ease-in-out;
+}
+
+/* Media query para dark mode */
+@media (prefers-color-scheme: dark) {
+    body:not(.light-theme) {
+        background: linear-gradient(to bottom right, #300048, #5A007A);
+        --background-color: linear-gradient(to bottom right, #300048, #5A007A);
+        --text-color: #eee;
+        --button-bg: #5A007A;
+        --button-text: #fff;
+        --button-hover-bg: #300048;
+        --button-hover-text: #eee;
+    }
+}
+
+
